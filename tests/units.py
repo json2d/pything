@@ -1,6 +1,6 @@
-import dotrelay
-
 import unittest
+
+import dotrelay
 
 with dotrelay.Radio(__file__): # 📻
   import pything as pyt
