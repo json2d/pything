@@ -1,10 +1,9 @@
-import sys
-from os import path
-sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
-
 import unittest
 
-import pything as pyt
+import dotrelay
+
+with dotrelay.Radio(__file__): # 📻
+  import pything as pyt
 
 class TestEverything(unittest.TestCase):
 
