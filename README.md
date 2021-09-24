@@ -1,6 +1,6 @@
 # 🐍 pything
 [![PyPI version](https://badge.fury.io/py/pything.svg)](https://badge.fury.io/py/pything)
-[![Build Status](https://travis-ci.com/json2d/pything.svg?branch=master)](https://travis-ci.com/json2d/pything) [![Coverage Status](https://coveralls.io/repos/github/json2d/pything/badge.svg?branch=master)](https://coveralls.io/github/json2d/pything?branch=master)
+[![Build Status](https://travis-ci.com/json2d/pything.svg?branch=main)](https://travis-ci.com/json2d/pything) [![Coverage Status](https://coveralls.io/repos/github/json2d/pything/badge.svg?branch=main)](https://coveralls.io/github/json2d/pything?branch=main)
 
 a Python library starter template
 
