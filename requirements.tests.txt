@@ -1,2 +1,2 @@
 coverage==5.0.4
-dotrelay==0.2.1
+dotrelay==0.2.2
