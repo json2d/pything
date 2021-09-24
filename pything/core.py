@@ -6,6 +6,6 @@ def do_stuff():
   print('...')
   return 42
 
-def do_crazier_stuff():
-  print('...', 'hello world!')
+def do_crazier_stuff(msg='hello world', yell=False):
+  print('...', f'{msg}{"!!!" if yell else ""}')
   return 42
