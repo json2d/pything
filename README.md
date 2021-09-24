@@ -24,11 +24,20 @@ pyt.do_stuff()
 
 ## More advanced usage
 
-Then here's this stuff you can do with a pything:
+Then there's this stuff you can do with a pything:
 
 ```py
 import pything as pyt
 
 pyt.do_crazier_stuff()
 
+```
+
+
+## CLI usage
+You can also do stuff with a pything via CLI
+
+```
+python cli.py do_stuff
+python cli.py do_crazier_stuff
 ```
