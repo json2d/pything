@@ -10,7 +10,7 @@ setup(
   url = 'https://github.com/json2d/pything', # Provide either the link to your github or to your website
   download_url = 'https://github.com/json2d/pything/archive/v0.0.1.tar.gz',
   keywords = ['starter', 'template', 'python', 'thing'], # Keywords that define your package best
-  install_requires= [],
+  install_requires= ['loguru'],
   classifiers=[
     'Development Status :: 3 - Alpha', # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers', # Define your audience
