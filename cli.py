@@ -3,6 +3,8 @@ import argparse
 
 import pything as pyt
 
+from loguru import logger
+
 def cli():
     p = argparse.ArgumentParser(description = 'does pything stuff via cli]')
     subparsers = p.add_subparsers()
@@ -32,7 +34,7 @@ def cli():
         config_path = "config.json"
     else:
         config_path = f"config.{args.config_name}.json"
-        print(f'Using config file: {config_path}')
+        logger.info(f'Using config file: {config_path}')
 
     with open(config_path, 'r') as fp: 
         CONFIG = json.load(fp)
